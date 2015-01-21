@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Coding Challenge
-cover:  cover.jpg
+cover:  cover_new.png
 date:   2015-01-21 12:00:00
 categories: posts
 ---
