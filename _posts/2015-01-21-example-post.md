@@ -10,6 +10,8 @@ categories: posts
 
 ### Required Basic Features
 
+* use the following [text file]({{ site.url }}/images/text.txt).
+
 #### Your text analyzer should provide the following basic statistics:
 
 * Character count
