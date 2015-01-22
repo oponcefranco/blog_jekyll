@@ -7,7 +7,8 @@ gem 'rake',  '10.1.0'
 
 gem 'puma', '~> 2.11.0'
 
-gem 'jekyll', '~> 2.5.3'
+gem 'jekyll'
+gem 'rack-jekyll'
 gem 'thin', '~> 1.6.3'
 gem 'kramdown', '~> 1.5.0'
 gem 'rack-contrib', '~> 1.2.0'
