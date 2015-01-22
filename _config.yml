@@ -2,4 +2,4 @@ name: Flex
 markdown: redcarpet
 pygments: true
 
-exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', Procfile, vendor]
+exclude: ['config.ru', '_config.yml', 'Gemfile', 'Gemfile.lock', Procfile, vendor]
