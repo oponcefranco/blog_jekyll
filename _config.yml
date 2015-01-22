@@ -1,14 +1,3 @@
-# Site settings
-title: Code Challenge
-email: oponcefranco@honest.com
-
-# Build settings
-markdown: kramdown
-permalink: pretty
-
 name: Flex
 markdown: redcarpet
 pygments: true
-
-gems: ['kramdown']
-exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
