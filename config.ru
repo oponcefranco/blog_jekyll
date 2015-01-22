@@ -1,4 +1,7 @@
 require 'rack/jekyll'
 require 'yaml'
-run Rack::Jekyll.new
+require 'bundler'
 
+Bundler.require(:default, :production)
+
+run Rack::Jekyll.new
