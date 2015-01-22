@@ -46,3 +46,7 @@ categories: posts
 * [Splitting Strings in Ruby](http://ruby.about.com/od/strings/a/Splitting-Strings.htm)
 * [Ruby Explained: Strings](http://www.eriktrautman.com/posts/ruby-explained-strings)
 * [Rubular: a Ruby regular expression editor](http://rubular.com/)
+
+---
+
+##### _Credit to [Peter Cooper](http://peterc.org/), author of Author of Beginning Ruby, published by Apress (1st ed. 2007, 2nd ed. 2009.)_
