@@ -13,3 +13,8 @@ gem 'kramdown', '~> 1.5.0'
 gem 'rack-contrib', '~> 1.2.0'
 
 gem 'heroku', '~> 3.23.3'
+
+group :production do
+  gem 'unicorn', '~> 4.8.3'
+  gem 'rack-timeout', '~> 0.2.0'
+end
