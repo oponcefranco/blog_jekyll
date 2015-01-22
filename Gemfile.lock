@@ -78,6 +78,8 @@ GEM
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
     rack (1.6.0)
+    rack-contrib (1.2.0)
+      rack (>= 0.9.1)
     raindrops (0.13.0)
     rake (10.1.0)
     rb-fsevent (0.9.4)
@@ -106,6 +108,7 @@ DEPENDENCIES
   bundler (= 1.7.4)
   heroku (~> 3.23.3)
   jekyll (~> 2.3)
+  rack-contrib (~> 1.2.0)
   rack-jekyll!
   rake (= 10.1.0)
   unicorn
