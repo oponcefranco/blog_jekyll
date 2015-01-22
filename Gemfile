@@ -10,5 +10,6 @@ gem 'rake',  '10.1.0'
 gem 'jekyll', '~> 2.3'
 gem 'rack-jekyll', github: 'adaoraul/rack-jekyll'
 gem 'unicorn'
+gem 'rack-contrib', '~> 1.2.0'
 
 gem 'heroku', '~> 3.23.3'
