@@ -39,6 +39,7 @@ categories: posts
 
 #### Helpful Resources
 
+* [Working with directories and files](http://code.tutsplus.com/tutorials/ruby-for-newbies-working-with-directories-and-files--net-18810)
 * [Class: File (Ruby 2.1.4) - Ruby-Doc.org](http://ruby-doc.org/core-2.1.4/File.html)
 * [Using the `File` Class](http://rubymonk.com/learning/books/1-ruby-primer/chapters/42-introduction-to-i-o/lessons/90-using-the-file-class)
 * [Class: String (Ruby 2.2.0) - Ruby-Doc.org](http://www.ruby-doc.org/core-2.2.0/String.html)
