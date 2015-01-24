@@ -47,6 +47,10 @@ categories: posts
 * [Ruby Explained: Strings](http://www.eriktrautman.com/posts/ruby-explained-strings)
 * [Rubular: a Ruby regular expression editor](http://rubular.com/)
 
----
+#### Due date is Friday, January 30, 2015.
+
+![image]({{ site.url }}/images/transparent.gif)
+
+* * *
 
 ##### _Credit to [Peter Cooper](http://peterc.org/), author of Author of Beginning Ruby, published by Apress (1st ed. 2007, 2nd ed. 2009.)_
