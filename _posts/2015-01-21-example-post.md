@@ -8,6 +8,7 @@ categories: posts
 
 ## Introducing our weekly Code Challenge!
 
+## Text Analyzer Challenge
 ### Required Basic Features
 
 * use the following [text file]({{ site.url }}/images/text.txt).
