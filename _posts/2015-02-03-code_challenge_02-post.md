@@ -32,7 +32,7 @@ If your program is fed that template, it should ask you to enter "a gemstone" an
 ### Madlib text:
 
 
-```
+``` text
   For my ((a family member))'s ((an event)) present about ((a number)) years ago,
   I got him a ((gift:a noun)).   Not a ((an adjective)) ((gift)) or a loud one or
   even a ((an adjective)) ((gift)) that runs around chasing its ((a body part))
@@ -43,7 +43,7 @@ If your program is fed that template, it should ask you to enter "a gemstone" an
 
 ![image]({{ site.url }}/images/transparent.gif)
 
-```
+``` text
   ((noun plural)) are the most ((adjective)) ((noun plural)) used by mankind.
   Teamwork is the ability to ((verb)) together toward a common ((noun)). 
   It is the fuel that ((verb ending in s)) ((adjective)) people to attain un-((adjective)) results.
@@ -66,7 +66,7 @@ If your program is fed that template, it should ask you to enter "a gemstone" an
 * [Ruby CGI](http://www.ruby-doc.org/stdlib-2.2.0/libdoc/cgi/rdoc/CGI.html)
 * [Sinatra DSL](http://www.sinatrarb.com/)
 
-#### Due date is Friday, February 20, 2015.
+#### Due date is Friday, March 6, 2015.
 
 ![image]({{ site.url }}/images/transparent.gif)
 
