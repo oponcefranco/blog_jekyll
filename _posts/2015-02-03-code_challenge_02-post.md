@@ -66,7 +66,7 @@ If your program is fed that template, it should ask you to enter "a gemstone" an
 * [Ruby CGI](http://www.ruby-doc.org/stdlib-2.2.0/libdoc/cgi/rdoc/CGI.html)
 * [Sinatra DSL](http://www.sinatrarb.com/)
 
-#### Due date is Friday, March 6, 2015.
+#### Presentation date, TBD.
 
 ![image]({{ site.url }}/images/transparent.gif)
 
