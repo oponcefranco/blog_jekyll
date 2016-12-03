@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Code Challenge 01
-cover: cover_new.png
-date:   2015-01-21 12:00:00
+title: Code Challenge 03
+cover: running.jpg
+date:   2016-12-02 12:00:00
 categories: posts
 ---
 
