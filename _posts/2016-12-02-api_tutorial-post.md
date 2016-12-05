@@ -62,6 +62,17 @@ Create `http` request. (this is a perfect time to read about [HTTP Request Metho
 
 ![image]({{ site.url }}/images/http_request_2.png)
 
+Notice that in the `Body`, we are adding a dynamic value within the curly braces `{...}`. There are some examples of Dynamic variables:
+
+`{{$guid}}`: Adds a `v4` style guid
+`{{$timestamp}}`: Adds the current timestamp
+`{{$randomInt}}`: Adds a random integer between `0` and `1000`
+
+Finally, we'll be sending the request!
+
+* click on *Send* button
+
+## Exercises
 #### REST API requests
 
 * create user (see example above)
