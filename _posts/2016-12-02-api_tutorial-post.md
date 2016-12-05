@@ -17,7 +17,7 @@ Here is a better way to think about it: When you did standardized testing in hig
 
 ### Query parameters
 
-Many APIs use this format for material, you can then filter particular information using query parameters. Query parameters are those things you see at the end of the URL: `?bundles=true`. Many APIs use these query parameters as filter.
+Many APIs use this format for material, you can then filter particular information using query parameters. *Query parameters* are those things you see at the end of the URL: `?bundles=true`. Many APIs use these query parameters as filter.
 
 ### Postman
 
@@ -37,10 +37,34 @@ Now, add one or more environments for your testing.
 ![image]({{ site.url }}/images/manage_environments_2.png)
 
 #### Add HTTP request example
+Create a folder for our `http` requests.
+
+* click on *folder* icon to create a new collection (side panel)
+* enter *Name*, _"REST API requests"_
+* click on *Create* button
+
+![image]({{ site.url }}/images/create_collection_1.png)
+
+Create `http` request. (this is a perfect time to read about [HTTP Request Methods](https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html))
+
+* select `http request method`, `POST`
+* enter `API` endpoint, `{{staging4}}/api/v1/users`
+** _we're using the environment variable that we created earlier_
+* click on `Headers` tab and add the following:
+** `key: Content-Type value: application/json`
+** `key: Honest-BU value: thc`
+
+![image]({{ site.url }}/images/http_request_1.png)
+
+* click on `Body` tab
+* select the `raw` radial button option
+* select `JSON(application/json)` from the drop-down selector
+
+![image]({{ site.url }}/images/http_request_2.png)
 
 #### REST API requests
 
-* create user
+* create user (see example above)
 * oauth request
 * create cart
 * add bundle to cart
@@ -59,7 +83,7 @@ Now, add one or more environments for your testing.
 * [What Is Idempotence?](http://www.restapitutorial.com/lessons/idempotency.html)
 * [HTTP Status Codes](http://www.restapitutorial.com/httpstatuscodes.html)
 
-#### Due date is Friday, January 30, 2015.
+#### Due date TBD.
 
 ![image]({{ site.url }}/images/transparent.gif)
 
