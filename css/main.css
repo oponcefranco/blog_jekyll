@@ -18,7 +18,7 @@ html, body {
 body {
   color: #4a4a4a;
   background-color: #fafbfc;
-  font-family: 'Raleway', Arial, sans-serif;
+  font-family: 'Raleway', Verdana, sans-serif;
   font-weight: 400;
   font-size: 0.85em;
   overflow: hidden;
@@ -174,8 +174,8 @@ a:hover {
 }
 
 .post p {
-  font-family: 'Source Sans Pro', Arial, sans-serif;
-  font-size: 17px;
+  font-family: 'Source Sans Pro', Verdana, sans-serif;
+  font-size: 14px;
   margin-bottom: 1.45em;
   text-align: justify;
 }
