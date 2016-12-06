@@ -76,19 +76,12 @@ Finally, we'll be sending the request!
 
 ## Exercises
 #### REST API requests
-
-create user (see example above)
-* endpoint: `POST /api/v1/users`
-products request
-* endpoint: `GET /api/v1/product_categories/20?with=products&filter[bu]=thc`
-oauth request
-* endpoint: `POST /oauth/token`
-create cart
-* endpoint: `POST /api/v1/carts`
-add bundle to cart
-* endpoint: `POST /api/v1/carts/:cart_id/line_items`
-charge cart
-* endpoint: `POST /api/v1/users/me/carts/:cart_id/charge`
+* Create user (refer to example above) `POST /api/v1/users`
+* Products request `GET /api/v1/product_categories/20?with=products&filter[bu]=thc`
+* Oauth request `POST /oauth/token`
+* Create cart `POST /api/v1/carts` (using `Bearer token`)
+* Add bundle to cart `POST /api/v1/carts/:cart_id/line_items`
+* Charge cart `POST /api/v1/users/me/carts/:cart_id/charge`
 
 #### NGPAPI requests
 
@@ -97,7 +90,7 @@ charge cart
 * apply coupon
 
 #### Helpful Resources
-
+* [Introduction to APIs](https://zapier.com/learn/apis/chapter-1-introduction-to-apis/)
 * [Postman | Supercharge your API workflow](https://www.getpostman.com/)
 * [HTTP Request Methods](https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html)
 * [What Is Idempotence?](http://www.restapitutorial.com/lessons/idempotency.html)
