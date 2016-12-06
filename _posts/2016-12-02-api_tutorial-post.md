@@ -64,9 +64,11 @@ Create `http` request. (this is a perfect time to read about [HTTP Request Metho
 
 Notice that in the `Body`, we are adding a dynamic value within the curly braces `{...}`. Below are some examples of *Dynamic variables*:
 
-* `{{$guid}}` Adds a `v4` style guid
-* `{{$timestamp}}` Adds the current timestamp
-* `{{$randomInt}}` Adds a random integer between `0` and `1000`
+{% highlight bash %}
+{{$guid}} Adds a v4 style guid
+{{$timestamp}} Adds the current timestamp
+{{$randomInt}} Adds a random integer between 0 and 1000
+{% endhighlight %}
 
 Finally, we'll be sending the request!
 
