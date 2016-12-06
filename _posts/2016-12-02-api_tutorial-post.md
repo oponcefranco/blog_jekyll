@@ -77,18 +77,18 @@ Finally, we'll be sending the request!
 ## Exercises
 #### REST API requests
 
-* create user (see example above)
-** endpoint: `POST /api/v1/users`
-* products request
-** endpoint: `GET /api/v1/product_categories/20?with=products&filter[bu]=thc`
-* oauth request
-** endpoint: `POST /oauth/token`
-* create cart
-** endpoint: `POST /api/v1/carts`
-* add bundle to cart
-** endpoint: `POST /api/v1/carts/:cart_id/line_items`
-* charge cart
-** endpoint: `POST /api/v1/users/me/carts/:cart_id/charge`
+create user (see example above)
+* endpoint: `POST /api/v1/users`
+products request
+* endpoint: `GET /api/v1/product_categories/20?with=products&filter[bu]=thc`
+oauth request
+* endpoint: `POST /oauth/token`
+create cart
+* endpoint: `POST /api/v1/carts`
+add bundle to cart
+* endpoint: `POST /api/v1/carts/:cart_id/line_items`
+charge cart
+* endpoint: `POST /api/v1/users/me/carts/:cart_id/charge`
 
 #### NGPAPI requests
 
