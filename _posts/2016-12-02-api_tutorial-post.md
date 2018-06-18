@@ -69,11 +69,11 @@ Finally, we'll be sending the request!
 ## Exercises
 #### REST API requests
 * Create user (refer to example above) `POST /api/v1/users`
-* Products request `GET /api/v1/product_categories/20?with=products&filter[bu]=thc`
+* Products request `GET /api/v1/product_categories/1`
 * Oauth request `POST /oauth/token`
 * Create cart `POST /api/v1/carts` (using `Bearer token`)
-* Add bundle to cart `POST /api/v1/carts/:cart_id/line_items`
-* Charge cart `POST /api/v1/users/me/carts/:cart_id/charge`
+* Add bundle to cart `POST /api/v1/../line_items`
+* Charge cart `POST /api/v1/../charge`
 
 #### NGPAPI requests
 
