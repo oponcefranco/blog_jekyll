@@ -17,7 +17,7 @@ Here is a better way to think about it: When you did standardized testing in hig
 
 ### Query parameters
 
-Many APIs use this format for material, you can then filter particular information using query parameters. *Query parameters* are those things you see at the end of the URL: `?bundles=true`. Many APIs use these query parameters as filter.
+Many APIs use this format for material, you can then filter particular information using query parameters. *Query parameters* are those things you see at the end of the URL: `?subscription=true`. Many APIs use these query parameters as filter.
 
 ### Postman
 
@@ -28,9 +28,9 @@ Now, add one or more environments for your testing.
 
 * click on gear icon (top right corner)
 * click on *Add* button
-* enter *Environment Name*, e.g., `staging4`
-* enter *key*, e.g., `staging4`
-* enter *value*, e.g., `https://staging4.honestqa.com`
+* enter *Environment Name*, e.g., `qa`
+* enter *key*, e.g., `qa`
+* enter *value*, e.g., `https://qa.<domain>.com`
 
 ![image]({{ site.url }}/images/manage_environments_1.png)
 
@@ -46,14 +46,10 @@ Create a folder for our `http` requests.
 Create `http` request. (this is a perfect time to read about [HTTP Request Methods](https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html))
 
 * select `http request method`, `POST`
-* enter `API` endpoint, `{{stg4}}/api/v1/users`
+* enter `API` endpoint, `{{qa}}/api/v1/users`
 ** _we're using the environment variable that we created earlier_
 * click on `Headers` tab and add the following:
 ** `key: Content-Type value: application/json`
-** `key: Honest-BU value: thc`
-
-![image]({{ site.url }}/images/http_request_1.png)
-
 * click on `Body` tab
 * select the `raw` radial button option
 * select `JSON(application/json)` from the drop-down selector
