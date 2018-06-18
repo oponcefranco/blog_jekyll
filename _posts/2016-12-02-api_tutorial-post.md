@@ -34,8 +34,6 @@ Now, add one or more environments for your testing.
 
 ![image]({{ site.url }}/images/manage_environments_1.png)
 
-![image]({{ site.url }}/images/manage_environments_2.png)
-
 #### Add HTTP request example
 Create a folder for our `http` requests.
 
@@ -48,7 +46,7 @@ Create a folder for our `http` requests.
 Create `http` request. (this is a perfect time to read about [HTTP Request Methods](https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html))
 
 * select `http request method`, `POST`
-* enter `API` endpoint, `{{staging4}}/api/v1/users`
+* enter `API` endpoint, `{{stg4}}/api/v1/users`
 ** _we're using the environment variable that we created earlier_
 * click on `Headers` tab and add the following:
 ** `key: Content-Type value: application/json`
@@ -59,8 +57,6 @@ Create `http` request. (this is a perfect time to read about [HTTP Request Metho
 * click on `Body` tab
 * select the `raw` radial button option
 * select `JSON(application/json)` from the drop-down selector
-
-![image]({{ site.url }}/images/http_request_2.png)
 
 Notice that in the `Body`, we are adding a dynamic value within the curly braces `{...}`. Below are some examples of *Dynamic variables*:
 
