@@ -7,7 +7,10 @@ gem 'rake'
 
 gem 'jekyll', '~> 3.8', '>= 3.8.5'
 gem 'redcarpet', '~> 3.4'
-gem 'pygments.rb', '~> 0.6.3'
+
 gem 'unicorn'
 gem 'rack-contrib'
 gem 'foreman'
+
+gem 'pygments.rb', '~> 1.2', '>= 1.2.1'
+gem 'yajl-ruby', '~> 1.4', '>= 1.4.1'
