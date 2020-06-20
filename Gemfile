@@ -1,16 +1,16 @@
 source 'https://rubygems.org'
 
-ruby '2.4.1'
+ruby '2.7.1'
 
-gem 'bundler', '~> 1.17', '>= 1.17.3'
+gem 'bundler'
 gem 'rake'
 
-gem 'jekyll', '~> 3.8', '>= 3.8.5'
-gem 'redcarpet', '~> 3.4'
+gem 'jekyll'
+gem 'redcarpet'
 
 gem 'unicorn'
 gem 'rack-contrib'
 gem 'foreman'
 
-gem 'pygments.rb', '~> 1.2', '>= 1.2.1'
-gem 'yajl-ruby', '~> 1.4', '>= 1.4.1'
+gem 'pygments.rb'
+gem 'yajl-ruby'

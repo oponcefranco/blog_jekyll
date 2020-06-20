@@ -74,18 +74,18 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.17, >= 1.17.3)
+  bundler
   foreman
-  jekyll (~> 3.8, >= 3.8.5)
-  pygments.rb (~> 1.2, >= 1.2.1)
+  jekyll
+  pygments.rb
   rack-contrib
   rake
-  redcarpet (~> 3.4)
+  redcarpet
   unicorn
-  yajl-ruby (~> 1.4, >= 1.4.1)
+  yajl-ruby
 
 RUBY VERSION
-   ruby 2.4.1p111
+   ruby 2.7.1p83
 
 BUNDLED WITH
-   1.17.3
+   2.1.4
