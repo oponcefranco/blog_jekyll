@@ -6,7 +6,7 @@ gem "bundler"
 gem "rake", ">= 12.3.3"
 
 gem "jekyll"
-gem "redcarpet"
+gem "redcarpet", ">=3.5.1"
 
 gem "unicorn"
 gem "rack-contrib"
